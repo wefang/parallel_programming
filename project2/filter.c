@@ -18,7 +18,7 @@
 
 /* Example filter sizes */
 #define DATA_LEN  512*512*256
-#define FILTER_LEN 16 
+#define FILTER_LEN 2048
 
 
 /* Subtract the `struct timeval' values X and Y,
@@ -217,7 +217,7 @@ int main( int argc, char** argv )
   }
 
   /* Execute at a variety of filter lengths */
-  for ( int filter_len =16; filter_len<=FILTER_LEN; filter_len*=2) 
+  for ( int filter_len = 1; filter_len<=FILTER_LEN; filter_len*=2) 
   {
     serialDataFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list );
     memset ( output_array, 0, DATA_LEN );
