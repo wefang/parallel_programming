@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ITERS=0
-while [ $ITERS -lt $1 ]; do
+while [ $ITERS -lt 20 ]; do
 	let ITERS=ITERS+1;
-	"$2"; 
+	./filter_parallel;
 done  

@@ -18,8 +18,6 @@
 
 /* Example filter sizes */
 #define DATA_LEN  512*512*256
-#define FILTER_LEN 2048
-
 
 /* Subtract the `struct timeval' values X and Y,
     storing the result in RESULT.
@@ -185,8 +183,10 @@ int main( int argc, char** argv )
 {
 
 
+  int filter_len = 512;
   /* loop variables */
   int x,y;
+
 
   /* Create matrixes */
   unsigned int * input_array;
@@ -209,31 +209,23 @@ int main( int argc, char** argv )
   memset ( serial_array, 0, DATA_LEN );
 
   /* Initialize the filter. Values don't matter much. */
-  filter_list = (unsigned int*) malloc ( FILTER_LEN * sizeof(unsigned int));
-  for (y=0; y<FILTER_LEN; y++)
+  filter_list = (unsigned int*) malloc ( filter_len * sizeof(unsigned int));
+  for (y=0; y<filter_len; y++)
   {
     filter_list[y] = y;
   }
 
-  /* Execute at a variety of filter lengths */
-  for ( int filter_len = 1; filter_len<=FILTER_LEN; filter_len*=2) 
-  {
-    serialDataFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list );
-    memset ( output_array, 0, DATA_LEN );
+  for (int nt = 1; nt <= 16; nt*=2) {
+	  omp_set_num_threads(nt);
 
-    serialFilterFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list );
-    checkData ( serial_array, output_array );
-    memset ( output_array, 0, DATA_LEN );
+	  printf("%d, ", nt);
+	  parallelFilterFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list );
+	  memset ( output_array, 0, DATA_LEN );
 
+	  printf("%d, ", nt);
+	  parallelDataFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list );
+	  checkData ( serial_array, output_array );
+	  memset ( output_array, 0, DATA_LEN );
   }
-
-  // omp_set_num_threads(4);
-  // parallelFilterFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list );
-  // checkData ( serial_array, output_array );
-  // memset ( output_array, 0, DATA_LEN );
-
-  // parallelDataFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list );
-  // checkData ( serial_array, output_array );
-  // memset ( output_array, 0, DATA_LEN );
 }
 
