@@ -18,12 +18,7 @@ ggplot(aes(x = log2(X4), y = nTime, color = X2), data = serial_ave) +
       geom_point() +geom_line() + xlab("log2 of Filter Size") + ylab("Average Run Time / Filter Size (sec)") + 
       scale_color_discrete(name = "Type")
 
-
-
-
-parallel_ave <- parallel %>% group_by(X1, X3) %>% summarise(Time = mean(X4), 
-                                                            lower = t.test(X3)$conf.int[1],
-                                                            upper = t.test(X3)$conf.int[2])
+parallel_ave <- parallel %>% group_by(X1, X3) %>% summarise(Time = mean(X4))
 parallel_ave$Speedup = NA
 data_first <- parallel_ave$X3 == "Data First"
 parallel_ave$Speedup[data_first] <- 
@@ -32,4 +27,4 @@ parallel_ave$Speedup[data_first] <-
 filter_first <- parallel_ave$X3 == "Filter First"
 parallel_ave$Speedup[filter_first] <- 
       parallel_ave$Time[filter_first][1]/parallel_ave$Time[filter_first]
-ggplot(aes(x = X1, y = Speedup, color = X3), data = parallel_ave) + geom_point() + xlab("Filter Size")
+ggplot(aes(x = X1, y = Speedup, color = X3), data = parallel_ave) + geom_point() + geom_line() + xlab("Filter Size")
