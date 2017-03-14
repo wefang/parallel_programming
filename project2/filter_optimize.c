@@ -17,7 +17,7 @@
 #include <assert.h>
 
 /* Example filter sizes */
-#define DATA_LEN  512*512*256
+#define DATA_LEN  256*256*128
 
 /* Subtract the `struct timeval' values X and Y,
     storing the result in RESULT.
@@ -113,7 +113,7 @@ void parallelFilterFirst ( int data_len, unsigned int* input_array, unsigned int
   gettimeofday ( &ta, NULL );
 
   /* for all elements in the filter */ 
-  #pragma omp parallel for collapse(2)
+  #pragma omp parallel for schedule(dynamic, 256)
   for (int y=0; y<filter_len; y++) { 
     /* for all elements in the data */
     for (int x=0; x<data_len; x++) {
@@ -144,7 +144,7 @@ void parallelDataFirst ( int data_len, unsigned int* input_array, unsigned int* 
   gettimeofday ( &ta, NULL );
 
   /* for all elements in the data */
-  #pragma omp parallel for collapse(2)
+  #pragma omp parallel for schedule(dynamic, 256)
   for (int x=0; x<data_len; x++) {
     /* for all elements in the filter */ 
     for (int y=0; y<filter_len; y++) { 
@@ -218,11 +218,11 @@ int main( int argc, char** argv )
 	  omp_set_num_threads(nt);
 
 	  printf("%d, ", nt);
-	  parallelFilterFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list );
+	  parallelFilterFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list);
 	  memset ( output_array, 0, DATA_LEN );
 
 	  printf("%d, ", nt);
-	  parallelDataFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list );
+	  parallelDataFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list);
 	  checkData ( serial_array, output_array );
 	  memset ( output_array, 0, DATA_LEN );
   }

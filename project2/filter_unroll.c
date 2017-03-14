@@ -146,15 +146,24 @@ void parallelDataFirst ( int data_len, unsigned int* input_array, unsigned int* 
 
   /* for all elements in the data */
   #pragma omp parallel for
-  for (int x=0; x<data_len; x++) {
-    /* for all elements in the filter */ 
-    for (int y=0; y<filter_len; y++) { 
-      /* it the data element matches the filter */ 
-      if (input_array[x] == filter_list[y]) {
-        /* include it in the output */
-        output_array[x] = input_array[x];
-      }
-    }
+  for (int x=0; x<data_len; x+=2) {
+	  /* for all elements in the filter */ 
+	  for (int y=0; y<filter_len; y++) { 
+		  /* it the data element matches the filter */ 
+		  if (input_array[x] == filter_list[y]) {
+			  /* include it in the output */
+			  output_array[x] = input_array[x];
+		  }
+	  }
+
+	  /* for all elements in the filter */ 
+	  for (int y=0; y<filter_len; y++) { 
+		  /* it the data element matches the filter */ 
+		  if (input_array[x+1] == filter_list[y]) {
+			  /* include it in the output */
+			  output_array[x+1] = input_array[x+1];
+		  }
+	  }
   }
 
   /* get end time */
@@ -218,13 +227,13 @@ int main( int argc, char** argv )
   for (int nt = 1; nt <= 16; nt*=2) {
 	  omp_set_num_threads(nt);
 
-	  printf("%d, ", nt);
-	  parallelFilterFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list );
-	  memset ( output_array, 0, DATA_LEN );
+	//  printf("%d, ", nt);
+	//  parallelFilterFirst ( DATA_LEN, input_array, serial_array, filter_len, filter_list );
+	//  memset ( output_array, 0, DATA_LEN );
 
 	  printf("%d, ", nt);
 	  parallelDataFirst ( DATA_LEN, input_array, output_array, filter_len, filter_list );
-	  checkData ( serial_array, output_array );
+	  // checkData ( serial_array, output_array );
 	  memset ( output_array, 0, DATA_LEN );
   }
 }
