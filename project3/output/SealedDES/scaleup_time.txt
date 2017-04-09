@@ -1,0 +1,5 @@
+Completed search of 1048576 keys at 3918 milliseconds.
+Completed search of 2097152 keys at 4829 milliseconds.
+Completed search of 4194304 keys at 5263 milliseconds.
+Completed search of 8388608 keys at 6530 milliseconds.
+Completed search of 16777216 keys at 13053 milliseconds.
