@@ -1,48 +1,480 @@
-Startup Time: 343 microseconds
-500014058 heads in 1000000000 coin tosses.
-Running time: 11297 milliseconds
-Startup Time: 421 microseconds
-499961146 heads in 1000000000 coin tosses.
+Startup Time: 438 microseconds
+499993914 heads in 1000000000 coin tosses.
+Running time: 11298 milliseconds
+Startup Time: 3315 microseconds
+500024841 heads in 1000000000 coin tosses.
 Running time: 5660 milliseconds
-Startup Time: 1051 microseconds
-499965260 heads in 1000000000 coin tosses.
-Running time: 4690 milliseconds
-Startup Time: 7524 microseconds
-500021346 heads in 1000000000 coin tosses.
-Running time: 2833 milliseconds
-Startup Time: 2435 microseconds
-499989281 heads in 1000000000 coin tosses.
-Running time: 2282 milliseconds
-Startup Time: 7310 microseconds
-500002870 heads in 1000000000 coin tosses.
-Running time: 1906 milliseconds
-Startup Time: 3697 microseconds
-500006907 heads in 1000000000 coin tosses.
-Running time: 1688 milliseconds
-Startup Time: 12554 microseconds
-499994533 heads in 1000000000 coin tosses.
-Running time: 1771 milliseconds
-Startup Time: 19023 microseconds
-500002100 heads in 1000000000 coin tosses.
-Running time: 1552 milliseconds
-Startup Time: 7736 microseconds
-500000919 heads in 1000000000 coin tosses.
-Running time: 1426 milliseconds
-Startup Time: 17773 microseconds
-500015854 heads in 1000000000 coin tosses.
-Running time: 1303 milliseconds
-Startup Time: 33487 microseconds
-499987066 heads in 1000000000 coin tosses.
-Running time: 1185 milliseconds
-Startup Time: 27699 microseconds
-500007983 heads in 1000000000 coin tosses.
-Running time: 1119 milliseconds
-Startup Time: 51300 microseconds
-500029610 heads in 1000000000 coin tosses.
-Running time: 1062 milliseconds
-Startup Time: 29294 microseconds
-499999821 heads in 1000000000 coin tosses.
-Running time: 995 milliseconds
-Startup Time: 37911 microseconds
-499966027 heads in 1000000000 coin tosses.
-Running time: 976 milliseconds
+Startup Time: 709 microseconds
+500012570 heads in 1000000000 coin tosses.
+Running time: 4092 milliseconds
+Startup Time: 1041 microseconds
+499982848 heads in 1000000000 coin tosses.
+Running time: 3126 milliseconds
+Startup Time: 17678 microseconds
+500010782 heads in 1000000000 coin tosses.
+Running time: 2278 milliseconds
+Startup Time: 9557 microseconds
+499977705 heads in 1000000000 coin tosses.
+Running time: 1905 milliseconds
+Startup Time: 24753 microseconds
+500020676 heads in 1000000000 coin tosses.
+Running time: 1640 milliseconds
+Startup Time: 11760 microseconds
+500001225 heads in 1000000000 coin tosses.
+Running time: 1440 milliseconds
+Startup Time: 3568 microseconds
+499984768 heads in 1000000000 coin tosses.
+Running time: 1587 milliseconds
+Startup Time: 9818 microseconds
+499988940 heads in 1000000000 coin tosses.
+Running time: 1380 milliseconds
+Startup Time: 30193 microseconds
+500011401 heads in 1000000000 coin tosses.
+Running time: 1306 milliseconds
+Startup Time: 24945 microseconds
+499996865 heads in 1000000000 coin tosses.
+Running time: 1199 milliseconds
+Startup Time: 86347 microseconds
+499977235 heads in 1000000000 coin tosses.
+Running time: 1133 milliseconds
+Startup Time: 25922 microseconds
+500018751 heads in 1000000000 coin tosses.
+Running time: 1030 milliseconds
+Startup Time: 35593 microseconds
+499990656 heads in 1000000000 coin tosses.
+Running time: 984 milliseconds
+Startup Time: 19227 microseconds
+499988465 heads in 1000000000 coin tosses.
+Running time: 1059 milliseconds
+Startup Time: 47354 microseconds
+499991305 heads in 1000000000 coin tosses.
+Running time: 1128 milliseconds
+Startup Time: 123644 microseconds
+500002036 heads in 1000000000 coin tosses.
+Running time: 1137 milliseconds
+Startup Time: 132532 microseconds
+499995196 heads in 1000000000 coin tosses.
+Running time: 1113 milliseconds
+Startup Time: 129750 microseconds
+500012357 heads in 1000000000 coin tosses.
+Running time: 1102 milliseconds
+Startup Time: 107844 microseconds
+499987981 heads in 1000000000 coin tosses.
+Running time: 1028 milliseconds
+Startup Time: 110781 microseconds
+500022698 heads in 1000000000 coin tosses.
+Running time: 1001 milliseconds
+Startup Time: 105651 microseconds
+500017607 heads in 1000000000 coin tosses.
+Running time: 1015 milliseconds
+Startup Time: 137925 microseconds
+499995082 heads in 1000000000 coin tosses.
+Running time: 955 milliseconds
+Startup Time: 112333 microseconds
+500008117 heads in 1000000000 coin tosses.
+Running time: 1003 milliseconds
+Startup Time: 129321 microseconds
+500006320 heads in 1000000000 coin tosses.
+Running time: 989 milliseconds
+Startup Time: 174621 microseconds
+499999718 heads in 1000000000 coin tosses.
+Running time: 1028 milliseconds
+Startup Time: 166371 microseconds
+500001605 heads in 1000000000 coin tosses.
+Running time: 1020 milliseconds
+Startup Time: 214133 microseconds
+500006016 heads in 1000000000 coin tosses.
+Running time: 996 milliseconds
+Startup Time: 209494 microseconds
+500015315 heads in 1000000000 coin tosses.
+Running time: 956 milliseconds
+Startup Time: 201323 microseconds
+499996254 heads in 1000000000 coin tosses.
+Running time: 991 milliseconds
+Startup Time: 256985 microseconds
+499998286 heads in 1000000000 coin tosses.
+Running time: 999 milliseconds
+Startup Time: 338 microseconds
+500010599 heads in 1000000000 coin tosses.
+Running time: 11298 milliseconds
+Startup Time: 424 microseconds
+499979446 heads in 1000000000 coin tosses.
+Running time: 5663 milliseconds
+Startup Time: 669 microseconds
+499985969 heads in 1000000000 coin tosses.
+Running time: 3783 milliseconds
+Startup Time: 2577 microseconds
+499994263 heads in 1000000000 coin tosses.
+Running time: 2843 milliseconds
+Startup Time: 5645 microseconds
+499996412 heads in 1000000000 coin tosses.
+Running time: 2816 milliseconds
+Startup Time: 7288 microseconds
+500016763 heads in 1000000000 coin tosses.
+Running time: 1907 milliseconds
+Startup Time: 6831 microseconds
+500015443 heads in 1000000000 coin tosses.
+Running time: 1640 milliseconds
+Startup Time: 38095 microseconds
+499991754 heads in 1000000000 coin tosses.
+Running time: 1668 milliseconds
+Startup Time: 14524 microseconds
+500029117 heads in 1000000000 coin tosses.
+Running time: 1579 milliseconds
+Startup Time: 10701 microseconds
+499986615 heads in 1000000000 coin tosses.
+Running time: 1428 milliseconds
+Startup Time: 21174 microseconds
+500013149 heads in 1000000000 coin tosses.
+Running time: 1259 milliseconds
+Startup Time: 23107 microseconds
+499990589 heads in 1000000000 coin tosses.
+Running time: 1202 milliseconds
+Startup Time: 23285 microseconds
+500000798 heads in 1000000000 coin tosses.
+Running time: 1184 milliseconds
+Startup Time: 49305 microseconds
+499985138 heads in 1000000000 coin tosses.
+Running time: 1050 milliseconds
+Startup Time: 25434 microseconds
+499976634 heads in 1000000000 coin tosses.
+Running time: 982 milliseconds
+Startup Time: 57608 microseconds
+499985311 heads in 1000000000 coin tosses.
+Running time: 929 milliseconds
+Startup Time: 4228 microseconds
+500016849 heads in 1000000000 coin tosses.
+Running time: 1120 milliseconds
+Startup Time: 72884 microseconds
+499994484 heads in 1000000000 coin tosses.
+Running time: 1052 milliseconds
+Startup Time: 81996 microseconds
+499974072 heads in 1000000000 coin tosses.
+Running time: 1074 milliseconds
+Startup Time: 106553 microseconds
+500024431 heads in 1000000000 coin tosses.
+Running time: 1067 milliseconds
+Startup Time: 105615 microseconds
+499993493 heads in 1000000000 coin tosses.
+Running time: 1026 milliseconds
+Startup Time: 135423 microseconds
+500019621 heads in 1000000000 coin tosses.
+Running time: 1021 milliseconds
+Startup Time: 145286 microseconds
+499985218 heads in 1000000000 coin tosses.
+Running time: 1010 milliseconds
+Startup Time: 119976 microseconds
+499972777 heads in 1000000000 coin tosses.
+Running time: 1014 milliseconds
+Startup Time: 98693 microseconds
+499994050 heads in 1000000000 coin tosses.
+Running time: 1007 milliseconds
+Startup Time: 162837 microseconds
+500006783 heads in 1000000000 coin tosses.
+Running time: 980 milliseconds
+Startup Time: 162623 microseconds
+499983911 heads in 1000000000 coin tosses.
+Running time: 992 milliseconds
+Startup Time: 158991 microseconds
+500003663 heads in 1000000000 coin tosses.
+Running time: 959 milliseconds
+Startup Time: 180242 microseconds
+499990597 heads in 1000000000 coin tosses.
+Running time: 994 milliseconds
+Startup Time: 227986 microseconds
+500004569 heads in 1000000000 coin tosses.
+Running time: 1014 milliseconds
+Startup Time: 207191 microseconds
+499971957 heads in 1000000000 coin tosses.
+Running time: 983 milliseconds
+Startup Time: 244421 microseconds
+500008560 heads in 1000000000 coin tosses.
+Running time: 961 milliseconds
+Startup Time: 329 microseconds
+500013748 heads in 1000000000 coin tosses.
+Running time: 11297 milliseconds
+Startup Time: 432 microseconds
+500008468 heads in 1000000000 coin tosses.
+Running time: 5661 milliseconds
+Startup Time: 5671 microseconds
+499977107 heads in 1000000000 coin tosses.
+Running time: 3781 milliseconds
+Startup Time: 1058 microseconds
+500020313 heads in 1000000000 coin tosses.
+Running time: 3525 milliseconds
+Startup Time: 5671 microseconds
+500011845 heads in 1000000000 coin tosses.
+Running time: 2281 milliseconds
+Startup Time: 9579 microseconds
+499981072 heads in 1000000000 coin tosses.
+Running time: 1894 milliseconds
+Startup Time: 6185 microseconds
+500000074 heads in 1000000000 coin tosses.
+Running time: 1641 milliseconds
+Startup Time: 13306 microseconds
+500023771 heads in 1000000000 coin tosses.
+Running time: 1781 milliseconds
+Startup Time: 5582 microseconds
+499989555 heads in 1000000000 coin tosses.
+Running time: 1578 milliseconds
+Startup Time: 11077 microseconds
+500016383 heads in 1000000000 coin tosses.
+Running time: 1428 milliseconds
+Startup Time: 33614 microseconds
+499996722 heads in 1000000000 coin tosses.
+Running time: 1292 milliseconds
+Startup Time: 11243 microseconds
+499956066 heads in 1000000000 coin tosses.
+Running time: 1198 milliseconds
+Startup Time: 27563 microseconds
+499999242 heads in 1000000000 coin tosses.
+Running time: 1120 milliseconds
+Startup Time: 75640 microseconds
+500011336 heads in 1000000000 coin tosses.
+Running time: 1074 milliseconds
+Startup Time: 45724 microseconds
+500014480 heads in 1000000000 coin tosses.
+Running time: 982 milliseconds
+Startup Time: 36726 microseconds
+499994013 heads in 1000000000 coin tosses.
+Running time: 914 milliseconds
+Startup Time: 4200 microseconds
+499996664 heads in 1000000000 coin tosses.
+Running time: 1120 milliseconds
+Startup Time: 56396 microseconds
+500019953 heads in 1000000000 coin tosses.
+Running time: 1055 milliseconds
+Startup Time: 94088 microseconds
+500002440 heads in 1000000000 coin tosses.
+Running time: 1127 milliseconds
+Startup Time: 136181 microseconds
+500006026 heads in 1000000000 coin tosses.
+Running time: 1045 milliseconds
+Startup Time: 111975 microseconds
+500001546 heads in 1000000000 coin tosses.
+Running time: 1035 milliseconds
+Startup Time: 60728 microseconds
+500039555 heads in 1000000000 coin tosses.
+Running time: 1003 milliseconds
+Startup Time: 93928 microseconds
+499983147 heads in 1000000000 coin tosses.
+Running time: 970 milliseconds
+Startup Time: 116609 microseconds
+500031839 heads in 1000000000 coin tosses.
+Running time: 969 milliseconds
+Startup Time: 136216 microseconds
+499995686 heads in 1000000000 coin tosses.
+Running time: 1008 milliseconds
+Startup Time: 144460 microseconds
+500017554 heads in 1000000000 coin tosses.
+Running time: 986 milliseconds
+Startup Time: 163081 microseconds
+499984439 heads in 1000000000 coin tosses.
+Running time: 969 milliseconds
+Startup Time: 138798 microseconds
+499974150 heads in 1000000000 coin tosses.
+Running time: 992 milliseconds
+Startup Time: 174168 microseconds
+500004858 heads in 1000000000 coin tosses.
+Running time: 1010 milliseconds
+Startup Time: 199796 microseconds
+499999008 heads in 1000000000 coin tosses.
+Running time: 967 milliseconds
+Startup Time: 188290 microseconds
+499992957 heads in 1000000000 coin tosses.
+Running time: 971 milliseconds
+Startup Time: 225780 microseconds
+500010012 heads in 1000000000 coin tosses.
+Running time: 977 milliseconds
+Startup Time: 336 microseconds
+500004434 heads in 1000000000 coin tosses.
+Running time: 11297 milliseconds
+Startup Time: 442 microseconds
+500022806 heads in 1000000000 coin tosses.
+Running time: 5660 milliseconds
+Startup Time: 3140 microseconds
+499978413 heads in 1000000000 coin tosses.
+Running time: 3784 milliseconds
+Startup Time: 9970 microseconds
+499992253 heads in 1000000000 coin tosses.
+Running time: 2844 milliseconds
+Startup Time: 9295 microseconds
+500017266 heads in 1000000000 coin tosses.
+Running time: 2279 milliseconds
+Startup Time: 13492 microseconds
+499993544 heads in 1000000000 coin tosses.
+Running time: 2355 milliseconds
+Startup Time: 9365 microseconds
+499999901 heads in 1000000000 coin tosses.
+Running time: 2026 milliseconds
+Startup Time: 53336 microseconds
+500000162 heads in 1000000000 coin tosses.
+Running time: 1773 milliseconds
+Startup Time: 42270 microseconds
+499993266 heads in 1000000000 coin tosses.
+Running time: 1556 milliseconds
+Startup Time: 14576 microseconds
+499988550 heads in 1000000000 coin tosses.
+Running time: 1424 milliseconds
+Startup Time: 31450 microseconds
+500000803 heads in 1000000000 coin tosses.
+Running time: 1312 milliseconds
+Startup Time: 29646 microseconds
+500023789 heads in 1000000000 coin tosses.
+Running time: 1174 milliseconds
+Startup Time: 23344 microseconds
+500004840 heads in 1000000000 coin tosses.
+Running time: 1123 milliseconds
+Startup Time: 31807 microseconds
+500009206 heads in 1000000000 coin tosses.
+Running time: 1105 milliseconds
+Startup Time: 21835 microseconds
+499980960 heads in 1000000000 coin tosses.
+Running time: 1032 milliseconds
+Startup Time: 21721 microseconds
+500028883 heads in 1000000000 coin tosses.
+Running time: 945 milliseconds
+Startup Time: 52307 microseconds
+500003747 heads in 1000000000 coin tosses.
+Running time: 1113 milliseconds
+Startup Time: 71701 microseconds
+500012699 heads in 1000000000 coin tosses.
+Running time: 1136 milliseconds
+Startup Time: 79862 microseconds
+499981733 heads in 1000000000 coin tosses.
+Running time: 1083 milliseconds
+Startup Time: 95513 microseconds
+499999697 heads in 1000000000 coin tosses.
+Running time: 1031 milliseconds
+Startup Time: 99287 microseconds
+499999958 heads in 1000000000 coin tosses.
+Running time: 1079 milliseconds
+Startup Time: 139940 microseconds
+499988563 heads in 1000000000 coin tosses.
+Running time: 1009 milliseconds
+Startup Time: 131120 microseconds
+499993632 heads in 1000000000 coin tosses.
+Running time: 998 milliseconds
+Startup Time: 105482 microseconds
+499986220 heads in 1000000000 coin tosses.
+Running time: 971 milliseconds
+Startup Time: 126580 microseconds
+499965311 heads in 1000000000 coin tosses.
+Running time: 1006 milliseconds
+Startup Time: 176177 microseconds
+500006867 heads in 1000000000 coin tosses.
+Running time: 1008 milliseconds
+Startup Time: 150533 microseconds
+500022595 heads in 1000000000 coin tosses.
+Running time: 986 milliseconds
+Startup Time: 176403 microseconds
+500013538 heads in 1000000000 coin tosses.
+Running time: 1014 milliseconds
+Startup Time: 150412 microseconds
+500025332 heads in 1000000000 coin tosses.
+Running time: 958 milliseconds
+Startup Time: 142314 microseconds
+500000759 heads in 1000000000 coin tosses.
+Running time: 958 milliseconds
+Startup Time: 202054 microseconds
+500019602 heads in 1000000000 coin tosses.
+Running time: 979 milliseconds
+Startup Time: 234494 microseconds
+499988368 heads in 1000000000 coin tosses.
+Running time: 1025 milliseconds
+Startup Time: 330 microseconds
+500003158 heads in 1000000000 coin tosses.
+Running time: 11297 milliseconds
+Startup Time: 5332 microseconds
+500007175 heads in 1000000000 coin tosses.
+Running time: 5655 milliseconds
+Startup Time: 528 microseconds
+500018553 heads in 1000000000 coin tosses.
+Running time: 3783 milliseconds
+Startup Time: 17367 microseconds
+500034814 heads in 1000000000 coin tosses.
+Running time: 2843 milliseconds
+Startup Time: 805 microseconds
+500002106 heads in 1000000000 coin tosses.
+Running time: 2824 milliseconds
+Startup Time: 7174 microseconds
+500009969 heads in 1000000000 coin tosses.
+Running time: 2360 milliseconds
+Startup Time: 17138 microseconds
+499996882 heads in 1000000000 coin tosses.
+Running time: 1633 milliseconds
+Startup Time: 11384 microseconds
+499985657 heads in 1000000000 coin tosses.
+Running time: 1777 milliseconds
+Startup Time: 21373 microseconds
+500004268 heads in 1000000000 coin tosses.
+Running time: 1530 milliseconds
+Startup Time: 14958 microseconds
+499979441 heads in 1000000000 coin tosses.
+Running time: 1424 milliseconds
+Startup Time: 16447 microseconds
+499978184 heads in 1000000000 coin tosses.
+Running time: 1301 milliseconds
+Startup Time: 25536 microseconds
+499977976 heads in 1000000000 coin tosses.
+Running time: 1193 milliseconds
+Startup Time: 36544 microseconds
+500012459 heads in 1000000000 coin tosses.
+Running time: 1112 milliseconds
+Startup Time: 33894 microseconds
+499996780 heads in 1000000000 coin tosses.
+Running time: 1050 milliseconds
+Startup Time: 40165 microseconds
+499966422 heads in 1000000000 coin tosses.
+Running time: 1133 milliseconds
+Startup Time: 78623 microseconds
+499975162 heads in 1000000000 coin tosses.
+Running time: 950 milliseconds
+Startup Time: 48275 microseconds
+499996164 heads in 1000000000 coin tosses.
+Running time: 1050 milliseconds
+Startup Time: 81557 microseconds
+500001260 heads in 1000000000 coin tosses.
+Running time: 1128 milliseconds
+Startup Time: 92559 microseconds
+499990052 heads in 1000000000 coin tosses.
+Running time: 1094 milliseconds
+Startup Time: 121591 microseconds
+499997888 heads in 1000000000 coin tosses.
+Running time: 1051 milliseconds
+Startup Time: 94740 microseconds
+500012249 heads in 1000000000 coin tosses.
+Running time: 1029 milliseconds
+Startup Time: 85691 microseconds
+499992305 heads in 1000000000 coin tosses.
+Running time: 1051 milliseconds
+Startup Time: 85911 microseconds
+499984610 heads in 1000000000 coin tosses.
+Running time: 1003 milliseconds
+Startup Time: 175588 microseconds
+500039078 heads in 1000000000 coin tosses.
+Running time: 988 milliseconds
+Startup Time: 139508 microseconds
+500018254 heads in 1000000000 coin tosses.
+Running time: 1020 milliseconds
+Startup Time: 143372 microseconds
+500011630 heads in 1000000000 coin tosses.
+Running time: 989 milliseconds
+Startup Time: 129667 microseconds
+499990266 heads in 1000000000 coin tosses.
+Running time: 1001 milliseconds
+Startup Time: 167547 microseconds
+500010366 heads in 1000000000 coin tosses.
+Running time: 1039 milliseconds
+Startup Time: 171998 microseconds
+499969960 heads in 1000000000 coin tosses.
+Running time: 956 milliseconds
+Startup Time: 208332 microseconds
+500000777 heads in 1000000000 coin tosses.
+Running time: 986 milliseconds
+Startup Time: 190559 microseconds
+499994632 heads in 1000000000 coin tosses.
+Running time: 979 milliseconds
+Startup Time: 199326 microseconds
+500016505 heads in 1000000000 coin tosses.
+Running time: 978 milliseconds
